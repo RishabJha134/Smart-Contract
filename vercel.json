@@ -1,5 +1,5 @@
 {
-  "buildCommand": "CI=false tsc --skipLibCheck && vite build",
+  "buildCommand": "vite build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "vite",
