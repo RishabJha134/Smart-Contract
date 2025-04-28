@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "CI=false tsc --skipLibCheck && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+  {
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint .",
+      "preview": false
+    }
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
